@@ -1,25 +1,25 @@
-# Paradise Nursery
+# Food Recipe App
 
-An e-commerce shopping cart application for an online plant shop built with React and Redux Toolkit.
+A React Native food recipe mobile application built with Expo and Redux Toolkit.
 
 ## Features
 
-- Browse plants by categories (Aromatic, Medicinal, Low Maintenance)
-- Add plants to shopping cart
-- Update quantities or remove items from cart
-- Dynamic cart total calculation
-- Responsive design
+- Browse custom recipes
+- View recipe details with images
+- Add/Edit/Delete custom recipes
+- Toggle favorites with Redux state management
+- Persistent storage with AsyncStorage
 
 ## Tech Stack
 
-- React 19
+- React Native (Expo)
 - Redux Toolkit
-- React Redux
-- Vite
+- React Navigation
+- AsyncStorage
 
 ## Getting Started
 
 ```bash
 npm install
-npm run dev
+npx expo start
 ```
